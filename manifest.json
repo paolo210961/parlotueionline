@@ -1,0 +1,14 @@
+{
+  "name": "ParloTU&IO",
+  "short_name": "ParloTU&IO",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e7f5ff",
+  "theme_color": "#0879d1",
+  "description": "Traduzione vocale a due lati per parlare faccia a faccia.",
+  "icons": [
+    {"src":"parlotueio-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
