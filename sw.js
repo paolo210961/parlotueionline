@@ -1,4 +1,4 @@
-const CACHE='parlotueio-v3';
+const CACHE='parlotueio-v4';
 const FILES=['./','./index.html','./manifest.json','./parlotueio-icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
